@@ -1180,6 +1180,7 @@ Assan Header Style
     margin-right: 65px; }
   .single-navbar .navbar-nav {
     margin-right: 0px; }
+
   .navbar.navbar-transparent {
     position: absolute;
     width: 100%;
@@ -1187,7 +1188,7 @@ Assan Header Style
     top: 0;
     z-index: 99; }
     .navbar.navbar-transparent.navbar-light.bg-faded {
-      background: transparent;
+      background: rgba(34, 34, 34, 1);
       border: 0px; }
       .navbar.navbar-transparent.navbar-light.bg-faded .nav-link {
         color: rgba(255, 255, 255, 0.7); }
@@ -1198,7 +1199,7 @@ Assan Header Style
       .navbar.navbar-transparent.navbar-light.bg-faded.navbar-semi-transparent {
         background-color: rgba(255, 255, 255, 0.1); }
     .navbar.navbar-transparent.navbar-dark.bg-dark {
-      background: transparent !important;
+      background: rgba(34, 34, 34, 1) !important;
       border: 0px; }
       .navbar.navbar-transparent.navbar-dark.bg-dark .nav-link, .navbar.navbar-transparent.navbar-dark.bg-dark .navbar-right-elements .list-inline > li > a {
         color: rgba(0, 0, 0, 0.7); }
@@ -1265,7 +1266,7 @@ Assan Header Style
     top: 0;
     width: 100%;
     z-index: 999;
-    background-color: transparent; }
+    background-color: rgba(34, 34, 34, 1); }
   .nav-logo-center .navbar-brand {
     position: absolute;
     left: 50%;
